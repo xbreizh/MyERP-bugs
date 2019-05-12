@@ -20,7 +20,7 @@ public class EcritureComptableTest {
         return vRetour;
     }
 
-    @Test
+    /*@Test
     public void isEquilibree() {
         EcritureComptable vEcriture;
         vEcriture = new EcritureComptable();
@@ -39,6 +39,6 @@ public class EcritureComptableTest {
         vEcriture.getListLigneEcriture().add(this.createLigne(2, null, "30"));
         vEcriture.getListLigneEcriture().add(this.createLigne(2, "1", "2"));
         Assert.assertFalse(vEcriture.toString(), vEcriture.isEquilibree());
-    }
+    }*/
 
 }
